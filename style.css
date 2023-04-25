@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     background-image: url(./img/sunset.jpg);
     background-repeat: no-repeat;
@@ -14,6 +18,13 @@ body{
     color:black;
     border-radius: 30px;
 }
+.tab li{
+    font-size: 34px;
+    background: linear-gradient(to right, rgb(243, 141, 141),rgb(245, 245, 123));
+    border: 3px solid black;
+    border-style: groove;
+    border-radius: 40px;
+}
 .font{
     font-size: 36px;
 }
@@ -22,13 +33,7 @@ body{
     border-radius: 25px;
     border: 3px solid black;
 }
-.tab li{
-    font-size: 34px;
-    background: linear-gradient(to right, rgb(243, 141, 141),rgb(245, 245, 123));
-    border: 3px solid black;
-    border-style: groove;
-    border-radius: 40px;
-}
+
 .header{
     text-align: center;
 }
@@ -49,7 +54,7 @@ body{
     margin:auto;
     margin-top: 50px;
 }
-.shad{
+.shadow1{
     color: white;
     text-shadow: 1px 2px 2px black, 2px 0 25px rgb(236, 19, 19), 0 0 5px darkblue;
     background: linear-gradient(to left, rgb(144, 245, 144) rgb(123, 129, 131));
