@@ -1,0 +1,72 @@
+body{
+    background-image: url(./img/sunset.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.tab ul{
+    display: flex;
+    gap: 45px;
+    list-style-type: none;
+}
+.tab a:hover{
+    background: linear-gradient(to right, yellow,red);
+    color:black;
+    border-radius: 30px;
+    background-size: cover;
+    margin: 2px 3px 2px 2px;
+    text-decoration: none;
+}
+.font{
+    font-size: 36px;
+}
+.border{
+    background: linear-gradient(to right, rgb(78, 153, 172), rgb(240, 238, 124));
+    border-radius: 25px;
+    border: 3px solid black;
+}
+.tab li{
+    font-size: 34px;
+    background: linear-gradient(to right, rgb(243, 141, 141),rgb(245, 245, 123));
+    border: 3px solid black;
+    border-style: groove;
+    border-radius: 40px;
+}
+.header{
+    text-align: center;
+}
+.shadow{
+    text-shadow: 2px 1px 5px red, 1px 3px 3px purple, 1px 1px 5px black;
+}
+.imgs{
+    display: flex;
+    gap:45px;
+    margin-top: 150px;
+    justify-content: space-between;
+}
+.imgs div{
+    width: 33%;
+    font-size: 24px;
+}
+.pos{
+    margin:auto;
+    margin-top: 50px;
+}
+.shad{
+    color: white;
+    text-shadow: 1px 2px 2px black, 2px 0 25px rgb(236, 19, 19), 0 0 5px darkblue;
+    background: linear-gradient(to left, rgb(144, 245, 144) rgb(123, 129, 131));
+    border: 3px groove black;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+#submit{
+    color: rgb(5, 247, 5);
+    border: 2px solid black;
+    font-size: 16px;
+    border-radius: 50px;
+    background-color: rgb(237, 238, 229);
+    margin: 15px 5px;
+}
